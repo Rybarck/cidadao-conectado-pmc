@@ -1,103 +1,227 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cidadão Conectado - Project Model Canvas</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cidadão Conectado - Project Model Canvas</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="header-content">
-                <h1>Cidadão Conectado</h1>
-                <p class="subtitle">Project Model Canvas - ODS 11: Cidades e Comunidades Sustentáveis</p>
-                <p class="group-info">Grupo: Ricardo, João Pedro, Jader, Arthur Nardes</p>
-            </div>
-        </header>
+<div class="container">
+<!-- Header -->
+<header class="header">
+<div class="header-content">
+<h1>Cidadão Conectado</h1>
+<p class="subtitle">Project Model Canvas - ODS 11: Cidades e Comunidades Sustentáveis</p>
+<p class="group-info">Grupo: Ricardo, João Pedro, Jader, Arthur Nardes</p>
+</div>
+</header>
 
-        <!-- Project Model Canvas -->
-        <main class="canvas-container">
-            <div class="canvas">
-                <!-- Left Column (GP - Grupo de Projeto) -->
-                <div class="section gp-section">
-                    <div class="box justificativas">
+<!-- Project Model Canvas -->
+<main class="canvas-container">
+<div class="canvas">
+<!-- Left Column (GP - Grupo de Projeto) -->
+<div class="section gp-section">
+<div class="box justificativas">
+<div class="box-header">
+<span class="icon">💬</span>
+<h3>JUSTIFICATIVAS<br><small>Passado</small></h3>
+</div>
+<div class="box-content">
+<p>Muitas cidades enfrentam dificuldades na comunicação entre cidadãos e órgãos públicos para reportar problemas urbanos, como buracos, iluminação pública inadequada, coleta de lixo irregular e enchentes.</p>
+</div>
+</div>
+
+<div class="box obj-smart">
+<div class="box-header">
+<span class="icon">🎯</span>
+<h3>OBJ SMART</h3>
+</div>
+<div class="box-content">
+<p><strong>S:</strong> Lançar MVP em 4 semanas</p>
+<p><strong>M:</strong> 500 registros em 3 meses</p>
+<p><strong>A:</strong> Escopo limitado ao MVP</p>
+<p><strong>R:</strong> Contribuir para ODS 11</p>
+<p><strong>T:</strong> Prazo de 4 semanas</p>
+</div>
+</div>
+
+<div class="box beneficios">
+<div class="box-header">
+<span class="icon">📊</span>
+<h3>BENEFÍCIOS<br><small>Futuro</small></h3>
+</div>
+<div class="box-content">
+<ul>
+<li>Maior agilidade na resolução</li>
+<li>Transparência pública</li>
+<li>Melhor qualidade de vida</li>
+<li>Maior engajamento cívico</li>
+<li>Redução de custos</li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Center-Left Column (PITCH) -->
+<div class="section pitch-section">
+<div class="box produto">
+<div class="box-header">
+<span class="icon">📦</span>
+<h3>PRODUTO</h3>
+</div>
+<div class="box-content">
+<p><strong>Site interativo</strong> onde cidadãos podem registrar ocorrências urbanas com fotos e acompanhar o status em tempo real.</p>
+<p><strong>Funcionalidades:</strong></p>
+<ul>
+<li>Cadastro e login seguro</li>
+<li>Formulário com geolocalização</li>
+<li>Dashboard de acompanhamento</li>
+<li>Notificações em tempo real</li>
+<li>Estatísticas públicas</li>
+</ul>
+</div>
+</div>
+
+<div class="box requisitos">
+<div class="box-header">
+<span class="icon">📋</span>
+<h3>REQUISITOS</h3>
+</div>
+<div class="box-content">
+<p><strong>Técnicos:</strong></p>
+<ul>
+<li>Hospedagem web estável</li>
+<li>Banco de dados (SQL/NoSQL)</li>
+<li>API de mapas</li>
+<li>Framework web moderno</li>
+<li>Protocolos de segurança</li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Center-Right Column (PITCH - Continuação) -->
+<div class="section pitch-right-section">
+<div class="box stakeholders">
+<div class="box-header">
+<span class="icon">👥</span>
+<h3>STAKEHOLDERS<br>EXTERNOS<br><small>& Fatores externos</small></h3>
+</div>
+<div class="box-content">
+<p><strong>Usuários:</strong> Cidadãos que desejam reportar problemas urbanos</p>
+<p><strong>Stakeholders:</strong> Prefeituras, Secretarias Municipais, órgãos de infraestrutura urbana, associações comunitárias</p>
+</div>
+</div>
+
+<div class="box equipe">
+<div class="box-header">
+<span class="icon">👨‍💼</span>
+<h3>EQUIPE</h3>
+</div>
+<div class="box-content">
+<p><strong>Desenvolvedores:</strong> Ricardo e João Pedro</p>
+<p><strong>Responsabilidades:</strong> Frontend, Backend, Design, Testes</p>
+</div>
+</div>
+
+                    <div class="box restricoes">
                         <div class="box-header">
-                            <span class="icon">💬</span>
-                            <h3>JUSTIFICATIVAS<br><small>Passado</small></h3>
-                        </div>
-                        <div class="box-content">
-                            <p>Muitas cidades enfrentam dificuldades na comunicação entre cidadãos e órgãos públicos para reportar problemas urbanos, como buracos, iluminação pública inadequada, coleta de lixo irregular e enchentes.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="box beneficios">
-                        <div class="box-header">
-                            <span class="icon">📊</span>
-                            <h3>BENEFÍCIOS<br><small>Futuro</small></h3>
+                            <span class="icon">⛔</span>
+                            <h3>RESTRIÇÕES</h3>
                         </div>
                         <div class="box-content">
                             <ul>
-                                <li>Maior agilidade na resolução</li>
-                                <li>Transparência pública</li>
-                                <li>Melhor qualidade de vida</li>
-                                <li>Maior engajamento cívico</li>
-                                <li>Redução de custos</li>
+                                <li>Tempo limitado (4 semanas)</li>
+                                <li>Dependência de APIs</li>
+                                <li>Validação da Prefeitura</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- Center-Left Column (PITCH) -->
-                <div class="section pitch-section">
-                    <div class="box produto">
+                <!-- Right Column -->
+                <div class="section right-section">
+                    <div class="box premissas">
                         <div class="box-header">
-                            <span class="icon">📦</span>
-                            <h3>PRODUTO</h3>
+                            <span class="icon">☁️</span>
+                            <h3>PREMISSAS</h3>
                         </div>
                         <div class="box-content">
-                            <p><strong>Site interativo</strong> onde cidadãos podem registrar ocorrências urbanas com fotos e acompanhar o status em tempo real.</p>
-                            <p><strong>Funcionalidades:</strong></p>
                             <ul>
-                                <li>Cadastro e login seguro</li>
-                                <li>Formulário com geolocalização</li>
-                                <li>Dashboard de acompanhamento</li>
-                                <li>Notificações em tempo real</li>
-                                <li>Estatísticas públicas</li>
+                                <li>Prefeitura disposta a usar</li>
+                                <li>Cidadãos com acesso à internet</li>
+                                <li>Geolocalização precisa</li>
                             </ul>
                         </div>
                     </div>
 
-                <!-- Center-Right Column (PITCH - Continuação) -->
-                <div class="section pitch-right-section">
-                    <div class="box stakeholders">
+                    <div class="box riscos">
                         <div class="box-header">
-                            <span class="icon">👥</span>
-                            <h3>STAKEHOLDERS<br>EXTERNOS<br><small>& Fatores externos</small></h3>
+                            <span class="icon">⚠️</span>
+                            <h3>RISCOS</h3>
                         </div>
                         <div class="box-content">
-                            <p><strong>Usuários:</strong> Cidadãos que desejam reportar problemas urbanos</p>
-                            <p><strong>Stakeholders:</strong> Prefeituras, Secretarias Municipais, órgãos de infraestrutura urbana, associações comunitárias</p>
+                            <ul>
+                                <li>Baixa adesão inicial</li>
+                                <li>Falha na comunicação com órgãos públicos</li>
+                                <li>Problemas de segurança</li>
+                                <li>Imprecisão na geolocalização</li>
+                            </ul>
                         </div>
                     </div>
 
-                    <div class="box equipe">
+                    <div class="box linha-tempo">
                         <div class="box-header">
-                            <span class="icon">👨‍💼</span>
-                            <h3>EQUIPE</h3>
+                            <span class="icon">⏱️</span>
+                            <h3>LINHA DO TEMPO</h3>
                         </div>
                         <div class="box-content">
-                            <p><strong>Desenvolvedores:</strong> Ricardo, João Pedro, Jader, Arthur</p>
-                            <p><strong>Responsabilidades:</strong> Frontend, Backend, Design, Testes</p>
+                            <p><strong>Semana 1:</strong> Planejamento e Design</p>
+                            <p><strong>Semana 2:</strong> Backend e BD</p>
+                            <p><strong>Semana 3:</strong> Frontend e Integração</p>
+                            <p><strong>Semana 4:</strong> Testes e Deploy</p>
                         </div>
                     </div>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p>Project Model Canvas - José Finocchio Junior</p>
-            <p>ODS 11: Cidades e Comunidades Sustentáveis</p>
-        </footer>
-    </div>
+                    <div class="box entregas">
+                        <div class="box-header">
+                            <span class="icon">📦</span>
+                            <h3>GRUPO DE<br>ENTREGAS</h3>
+                        </div>
+                        <div class="box-content">
+                            <ul>
+                                <li>Wireframes/Protótipo</li>
+                                <li>API Backend</li>
+                                <li>Frontend Responsivo</li>
+                                <li>Integração de Mapas</li>
+                                <li>Dashboard de Gestão</li>
+                                <li>Sistema de Notificação</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box custos">
+                        <div class="box-header">
+                            <span class="icon">💰</span>
+                            <h3>CUSTOS</h3>
+                        </div>
+                        <div class="box-content">
+                            <p><strong>Domínio:</strong> ~R$ 50/mês</p>
+                            <p><strong>Hospedagem:</strong> ~R$ 50/mês</p>
+                            <p><strong>APIs:</strong> Variável</p>
+                            <p><strong>Ferramentas:</strong> Open Source</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+<!-- Footer -->
+<footer class="footer">
+<p>Project Model Canvas - José Finocchio Junior</p>
+<p>ODS 11: Cidades e Comunidades Sustentáveis</p>
+</footer>
+</div>
 </body>
 </html>
