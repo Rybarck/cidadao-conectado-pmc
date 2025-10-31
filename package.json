@@ -1,0 +1,12 @@
+{
+  "name": "cidadao-conectado-pmc",
+  "version": "1.0.0",
+  "description": "Project Model Canvas - Cidadão Conectado (ODS 11)",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": ["ODS11", "cidades", "sustentabilidade", "project-model-canvas"],
+  "author": "Ricardo & Rybarck",
+  "license": "MIT"
+}
